@@ -1,0 +1,16 @@
+[{
+    "title": "Pokédex Pokemon Front-end",
+    "description": "Pokédex Pokemon é um projeto que foi desenvolvido para o meu crescimento de conhecimento em Angular.",
+    "image": "../assets/projetoPokedex.png",
+    "url": "https://github.com/KarinaCorrotti/projetoPokemonFront"
+},{
+    "title": "Cantinho das Unhas - Server",
+    "description": "Cantinho das Unhas Server é um projeto que eu desenvolvi para um trabalho acadêmico, utilizando as tecnologias NodeJs, Express e MongoDB.",
+    "image": "../assets/projetoCantinho.jpg",
+    "url": "https://github.com/KarinaCorrotti/cantinho-unhas-server"
+},{
+    "title": "Jogo da Memoria Pokemon",
+    "description": "Jogo da Memoria Pokemon é um projeto que foi desenvolvido para o meu crescimento de conhecimento em Front-end, focado em HTML e CSS.",
+    "image": "../assets/projetoJogoDaMemoria.png",
+    "url": "https://github.com/KarinaCorrotti/Jogodamem-riaPokemon"
+}]

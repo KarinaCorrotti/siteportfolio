@@ -1,0 +1,17 @@
+<div class="app-projects">    
+    <div *ngFor="let project of projectList">
+        <div class="projectCards-container">            
+            <div class="title-container">
+                {{project.title}}
+            </div>
+            <div class="image-container">
+                <a target="_blank" href="{{project.url}}">
+                    <img src="{{project.image}}">
+                </a>                    
+            </div>
+            <div class="description-container">
+                <span>{{project.description}}</span>
+            </div>
+        </div>       
+    </div>
+</div>

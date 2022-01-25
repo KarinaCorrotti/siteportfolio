@@ -1,0 +1,45 @@
+.app-projects{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+	align-items: center;
+    .projectCards-container{
+        width: 25vw;
+        background: rgba(255, 255, 255, 0.411);
+        height: 55vh;    
+        border-radius: 3%;
+        padding: 1vw;
+        border-color: rgba(0, 0, 0, 0.123);
+        border-style: solid;
+        .project-container{
+            display: flex;
+            justify-content: center;
+	        align-items: center
+        }
+        .title-container{
+            color: rgb(19, 47, 122);
+            font-family: "Karla", sans-serif;
+            font-size: 1.5vw;
+            font-weight: bold;
+            height: 10%;
+        }        
+        img{
+            width: 100%;
+            border-radius: 2%;
+            cursor: pointer;
+            transition: opacity 1s;
+            &:hover{
+                opacity: 0.6;
+                transition: opacity 1s;
+            }
+        }
+        .description-container{
+            font-family: "Karla", sans-serif;
+            font-size: 1vw;
+            height: 30%;
+            display: flex;
+            justify-content: center;
+	        align-items: center;
+        }
+    }
+}

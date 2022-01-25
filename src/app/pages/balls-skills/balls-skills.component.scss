@@ -1,0 +1,83 @@
+.skillBall { 
+    border-radius: 100%;   
+    position: absolute;      
+    animation-duration: 1s;                
+    animation-iteration-count: 1;    
+    &.big {
+        width: 80px;
+        height: 80px;                        
+        background-color: white;                      
+        animation-timing-function: linear;
+        animation-fill-mode: both;
+        &.b1 {
+            animation-name: b1;
+            background: url("../../../assets/css.png") no-repeat center center;
+            background-size: 4vw;           
+        }
+        &.b2 {
+            animation-name: b2;
+            background: url("../../../assets/html.png") no-repeat center center;
+            background-size: 5vw;            
+        }
+        &.b3 {
+            animation-name: b3;
+            background: url("../../../assets/js.png") no-repeat center center;
+            background-size: 5vw;            
+        }
+        &.b4 {
+            animation-name: b4;
+            background: url("../../../assets/sass.png") no-repeat center center;
+            background-size: 5vw;            
+        }
+        &.b5 {
+            animation-name: b5;
+            background: url("../../../assets/angular.png") no-repeat center center;
+            background-size: 5vw;            
+        }
+    }
+    &.meddium {
+        width: 60px;
+        height: 60px;                      
+        background-color: white;                      
+        animation-timing-function: linear;
+        animation-fill-mode: both;
+        &.m1 {
+            animation-name: m1;
+            background: url("../../../assets/nodejs.png") no-repeat center center;
+            background-size: 4vw;            
+        }
+        &.m2 {
+            animation-name: m2;
+            background: url("../../../assets/mysql.png") no-repeat center center;
+            background-size: 5vw;            
+        }
+        &.m3 {
+            animation-name: m3;
+            background: url("../../../assets/git.png") no-repeat center center;
+            background-size: 4vw;            
+        }
+    }
+    &.small {
+        width: 40px;
+        height: 40px;                       
+        background-color: white;
+        animation-name: small;
+        animation-timing-function: linear;
+        animation-fill-mode: both;
+        &.s1 {
+            animation-name: s1;
+            background: url("../../../assets/mongodb.png") no-repeat center center;
+            background-size: 3vw;            
+        }
+        &.s2 {
+            animation-name: s2;                            
+            background: url("../../../assets/c++.png") no-repeat center center;
+            background-size: 3vw;           
+        }
+        &.s3 {
+            animation-name: s3;
+            background: url("../../../assets/java.png") no-repeat center center;
+            background-size: 3vw;            
+        }
+    }
+}
