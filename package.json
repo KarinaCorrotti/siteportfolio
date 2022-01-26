@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "heroku-postbuild": "ng build --prod"
+    "heroku-postbuild": "ng build --aot --prod"
   },
   "engines": {
     "node": "14.18.0",
@@ -30,6 +30,7 @@
     "express": "^4.17.2",
     "jquery": "^3.6.0",
     "parth": "^4.2.3",
+    "path": "^0.12.7",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "typescript": "~4.1.2",
@@ -42,6 +43,7 @@
     "@types/jasmine": "~3.6.0",
     "@types/node": "^12.20.42",
     "codelyzer": "^6.0.0",
+    "enhanced-resolve": "^3.3.0",
     "jasmine-core": "~3.6.0",
     "jasmine-spec-reporter": "~5.0.0",
     "karma": "~6.1.0",
