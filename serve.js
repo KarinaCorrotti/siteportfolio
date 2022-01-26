@@ -5,10 +5,10 @@ const siteportifolio = process.env.npm_package_name;
 const app = express();
 
 // Serve only the static files form the dist directory
-app.use(express.static(`${__dirname}/dist/${siteportifolio}`));
+app.use(express.static(`${__dirname}/dist/${SitePortifolio}`));
 
 app.get('/*', (req, res) =>
-    res.sendFile(path.join(`${__dirname}/dist/${siteportifolio}/index.html`)),
+    res.sendFile(path.join(`${__dirname}/dist/${SitePortifolio}/src/index.html`)),
 );
 
 // Start the app by listening on the default Heroku port
