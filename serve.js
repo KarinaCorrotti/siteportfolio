@@ -6,9 +6,9 @@ const app = express();
 
 // Serve only the static files form the dist directory
 app
-    .use(express.static('./dist/siteportifolio'))
+    .use(express.static('./dist/SitePortifolio'))
     .get('/*', (req, res) =>
-        res.sendFile(path.join(__dirname, 'dist/siteportifolio/index.html')),
+        res.sendFile(path.join(__dirname, 'dist/SitePortifolio/index.html')),
     );
 
 
