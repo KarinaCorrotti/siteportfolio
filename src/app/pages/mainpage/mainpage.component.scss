@@ -80,12 +80,15 @@
                     opacity: 0;                    
                     transition: opacity 1s;                                  
                     position: absolute;
-                    margin-right: 4vw;                                    
+                    margin-right: 4vw;    
+                    &.ab {
+                        margin-right: 4vw;
+                    }                                 
                     &.port {                    
-                        margin-right: 7vw;
+                        margin-right: 8vw;
                     }
                     &.cont {
-                        margin-right: 7vw;
+                        margin-right: 6vw;
                     }                
                 }
                 &:hover {                    
@@ -377,7 +380,7 @@
                 }
             }
             .linksConection {
-                width: 150px;
+                width: 15vw;
                 display: flex;
                 justify-content: space-around;
                 align-items: center;

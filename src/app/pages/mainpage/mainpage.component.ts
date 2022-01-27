@@ -29,7 +29,7 @@ export class MainpageComponent implements OnInit {
     // const portfolio = document.getElementById("portfolio").offsetTop;
     const element: HTMLElement = document.getElementById("about");
     const elementPositions = element.getBoundingClientRect();
-    const aboutBottom = elementPositions.height + elementPositions.top - 350;
+    const aboutBottom = elementPositions.height + elementPositions.top - 200;
     
 
     if (document.documentElement.scrollTop > aboutBottom && document.documentElement.scrollTop < 1000) {
@@ -40,16 +40,5 @@ export class MainpageComponent implements OnInit {
   }
   increaseValue(value){
     this.number = this.number + value.number;
-  }
-  submitForm(){
-    if(this.name === undefined || this.email === undefined || this.text === undefined){      
-        this.message = 'Prencha todos os dados'  
-        setTimeout(() => {
-          this.cleanForm();
-        }, 3000);    
-    }    
-  }
-  cleanForm(){
-    this.message = ''
-  }    
+  }  
 }
