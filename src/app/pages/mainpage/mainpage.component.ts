@@ -29,10 +29,10 @@ export class MainpageComponent implements OnInit {
     // const portfolio = document.getElementById("portfolio").offsetTop;
     const element: HTMLElement = document.getElementById("about");
     const elementPositions = element.getBoundingClientRect();
-    const aboutBottom = elementPositions.height + elementPositions.top - 200;
+    const aboutBottom = elementPositions.height + elementPositions.top - 100;
     
 
-    if (document.documentElement.scrollTop > aboutBottom && document.documentElement.scrollTop < 1000) {
+    if (document.documentElement.scrollTop > aboutBottom && document.documentElement.scrollTop < 1500) {
       document.getElementById("skillsContainer").className = "skillAnimation";
     } else {
       document.getElementById("skillsContainer").className = " ";
